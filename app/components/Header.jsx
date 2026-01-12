@@ -8,13 +8,13 @@ const Header = () => {
   return (
     <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
       {/* Profile Image */}
-      <div>
+      {/* <div>
         <Image
           src={assets.profile2}
           alt="Profile"
-          className="rounded-full w-32"
+          className="rounded-full w-32 h-32 object-cover border-4 border-gray-300 mt-12"
         />
-      </div>
+      </div> */}
 
       {/* Heading Section */}
       <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
@@ -26,7 +26,7 @@ const Header = () => {
         Fullstack web developer based in India.
       </h1>
       <p className="max-w-2xl mx-auto">
-        Third-year Computer Science student and a dedicated Full-Stack Developer
+        Fourth-year Computer Science student and a dedicated Full-Stack Developer
         with a strong foundation in programming, problem solving, and software
         development.
       </p>
@@ -42,7 +42,7 @@ const Header = () => {
 
         {/* Resume Download Button */}
         <a
-          href="/sample-resume.pdf"
+          href="/Vaibhav_Resume.pdf"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
         >

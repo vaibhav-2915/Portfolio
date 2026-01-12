@@ -10,7 +10,6 @@ const About = () => {
       id="about"
       className="w-full min-h-screen px-[12%] py-10 flex flex-col items-center justify-center text-center"
     >
-      <h4 className="mb-2 text-lg">Introduction</h4>
       <h2 className="text-5xl">About me</h2>
 
       <div className="flex w-full flex-col items-center justify-center gap-20 my-15">

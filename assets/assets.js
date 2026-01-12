@@ -47,6 +47,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import express from "./tech/express.png";
 
 export const assets = {
   user_image,
@@ -91,22 +92,22 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Diet Planner Website",
-    description: "A health and diet recommendation web app.",
-    bgImage: "/work-1.png",
-    workLink: "https://github.com/MrReaper781/nutrimeal",
-  },
-  {
     title: "Vacational Inquiry Platform",
     description: "A platform for vacation-related queries.",
     bgImage: "/work-2.png",
-    workLink: "https://github.com/MrReaper781/Airbnb",
+    workLink: "https://github.com/vaibhav-2915/Airbnb",
   },
   {
     title: "Car Showcase application",
     description: "A car showcase website for browse and manage listings.",
     bgImage: "/work-3.png",
-    workLink: "https://github.com/MrReaper781/Car-Showcase",
+    workLink: "https://github.com/vaibhav-2915/Car-Showcase",
+  },
+  {
+    title: "Smart Finance Tracker",
+    description: "A finacne tracker to manage your expenses and incomes.",
+    bgImage: "/work-1.png",
+    workLink: "https://github.com/vaibhav-2915/Smart-Finance-Tracker",
   },
 ];
 
@@ -186,8 +187,8 @@ export const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Express JS",
+    icon: express,
   },
   {
     name: "Tailwind CSS",
